@@ -1,0 +1,61 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer {
+    display: flex;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+
+#titutlo-footer {
+    width: 40%;
+    margin: auto;
+    border-bottom: 3px solid #c97da3;
+}
+
+.div-redes {
+    width: 4rem;
+}
+
+#instagramFooter, #twitter, #linkedin {
+    border: #fff 2px solid;
+    border-radius: 100%;
+    transition: .3s;
+    font-size: 2.5rem;
+    height: 3.8rem;
+}
+
+#instagramFooter {
+    color: #FF4CB4;
+}
+
+#twitter {
+    color: #1DA1F2;
+}
+
+#twitter + p {
+    margin-left: 0.4rem;
+}
+
+#linkedin {
+    color: blue;
+}
+
+#instagramFooter:hover, #twitter:hover, #linkedin:hover {
+    background-color: #fff;
+    border-color: #000fff;
+}
+
+@media screen and (max-width: 490px){
+    .paragraf-socialMedia {
+        display: none;
+    }
+}

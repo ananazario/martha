@@ -1,0 +1,50 @@
+.principal-section {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.section-want-more {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+#paragraph-want-more {
+    width: 80%;
+    margin: 1.5rem auto 1rem auto;
+}
+
+.icones {
+    width: 100%;
+    border: 3px solid #d46cc7;
+    margin: 2rem 0.7rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+    border-radius: 6px;
+}
+
+#instagram svg {
+    color: #EE4F73;
+}
+
+#aviao svg {
+    color: #01286A;
+}
+
+#alerta svg {
+    color: rgb(212, 86, 86);
+}
+
+#empresa svg {
+    color: #000;
+}
+
+@media screen and (max-width: 900px){
+
+    .section-want-more {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
